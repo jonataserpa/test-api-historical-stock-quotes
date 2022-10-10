@@ -16,6 +16,7 @@ $ 3 horas, se caso tivesse mais tempo teria criado os testes, apenas não criei 
 $ Nesse exemplo fiz enviando um arquivo por vez, mas poderia ter adicionado varios, extremamente simples,
 $ Poderia ter adicionado validações de entrada de data ex: tamanho e formato adicionei apenas de ticket
 $ Teria adicionado o Swagger para a documentação de trativa de api
+$ Adicionado docker, usei o docker apenas para o banco de dados em mysql
 $ Framework utilizado Nestjs.
 ```
 

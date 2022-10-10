@@ -29,4 +29,7 @@ $ http://localhost:3000/quote?skip=0&take=12&year=2021&ticker=VALE3
 
 ```bash
 $ http://localhost:3000/quote/upload
+necessario passar no body:
+key: file
+value: arquivo de envio ex: PETR4.SA.csv
 ```

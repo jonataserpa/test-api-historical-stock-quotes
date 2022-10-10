@@ -22,11 +22,11 @@ $ Framework utilizado Nestjs.
 ## Exemplo de consulta paginada por ano e ticker
 
 ```bash
-$ http://localhost:3000/petra?skip=0&take=12&year=2021&ticker=VALE3
+$ http://localhost:3000/quote?skip=0&take=12&year=2021&ticker=VALE3
 ```
 
 ## Exemplo de envio do arquivo, nesse exemplo fiz um arquivo por vez
 
 ```bash
-$ http://localhost:3000/petra/upload
+$ http://localhost:3000/quote/upload
 ```

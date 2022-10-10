@@ -12,7 +12,7 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { CreatePetraDto } from '../dto/create-petra.dto';
 import { PetraService } from '../services/petra.service';
 
-@Controller('petra')
+@Controller('quote')
 export class PetraController {
   constructor(private readonly petraService: PetraService) {}
 

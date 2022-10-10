@@ -1,0 +1,26 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator erd {
+  provider = "prisma-erd-generator"
+}
+
+model Quote {
+  id            Int    @id @default(autoincrement())
+  open_price    String
+  highest_price String
+  lowest_price  String
+  volume        String
+  close_price   String
+  date          String
+  ticker        String
+
+  @@index([date])
+  @@map("quotes")
+}
